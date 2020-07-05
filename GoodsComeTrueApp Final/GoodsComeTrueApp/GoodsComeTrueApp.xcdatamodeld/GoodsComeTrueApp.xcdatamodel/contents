@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="19D76" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Zzim" representedClassName="Zzim" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="descrip" optional="YES" attributeType="String"/>
+        <attribute name="goodsno" optional="YES" attributeType="String"/>
+        <attribute name="imagename" optional="YES" attributeType="String"/>
+        <attribute name="minimum" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="price" optional="YES" attributeType="String"/>
+        <attribute name="userid" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ZzimData" representedClassName="ZzimData" syncable="YES" codeGenerationType="class"/>
+    <elements>
+        <element name="Zzim" positionX="-18" positionY="90" width="128" height="163"/>
+        <element name="ZzimData" positionX="-9" positionY="162" width="128" height="43"/>
+    </elements>
+</model>

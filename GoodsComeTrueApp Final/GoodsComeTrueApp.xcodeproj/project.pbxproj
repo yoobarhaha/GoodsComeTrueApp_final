@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDBC924524AFC87100098EE8 /* ZzimListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBC924424AFC87100098EE8 /* ZzimListTableViewController.swift */; };
+		CDBC924724AFD80D00098EE8 /* ZzimDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBC924624AFD80D00098EE8 /* ZzimDetailViewController.swift */; };
+		CDCC91D724AFA265009A21D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCC91D624AFA265009A21D5 /* AppDelegate.swift */; };
+		CDCC91D924AFA265009A21D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCC91D824AFA265009A21D5 /* SceneDelegate.swift */; };
+		CDCC91DB24AFA265009A21D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCC91DA24AFA265009A21D5 /* ViewController.swift */; };
+		CDCC91DE24AFA265009A21D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDCC91DC24AFA265009A21D5 /* Main.storyboard */; };
+		CDCC91E124AFA265009A21D5 /* GoodsComeTrueApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDCC91DF24AFA265009A21D5 /* GoodsComeTrueApp.xcdatamodeld */; };
+		CDCC91E324AFA26A009A21D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDCC91E224AFA26A009A21D5 /* Assets.xcassets */; };
+		CDCC91E624AFA26A009A21D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDCC91E424AFA26A009A21D5 /* LaunchScreen.storyboard */; };
+		CDCC91F324AFA2A1009A21D5 /* GCT_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CDCC91EE24AFA2A1009A21D5 /* GCT_logo.png */; };
+		CDCC91F424AFA2A1009A21D5 /* GCT_hw_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CDCC91EF24AFA2A1009A21D5 /* GCT_hw_logo.png */; };
+		CDCC91F524AFA2A1009A21D5 /* createAccountBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = CDCC91F024AFA2A1009A21D5 /* createAccountBtn.png */; };
+		CDCC91F624AFA2A1009A21D5 /* loginBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = CDCC91F124AFA2A1009A21D5 /* loginBtn.png */; };
+		CDCC91F724AFA2A1009A21D5 /* GCTBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = CDCC91F224AFA2A1009A21D5 /* GCTBtn.png */; };
+		CDCC91FB24AFA2AD009A21D5 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CDCC91F824AFA2AD009A21D5 /* logo.png */; };
+		CDCC91FC24AFA2AD009A21D5 /* welcomeLabel.png in Resources */ = {isa = PBXBuildFile; fileRef = CDCC91F924AFA2AD009A21D5 /* welcomeLabel.png */; };
+		CDCC91FD24AFA2AD009A21D5 /* logoutBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = CDCC91FA24AFA2AD009A21D5 /* logoutBtn.png */; };
+		CDCC91FF24AFA572009A21D5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCC91FE24AFA572009A21D5 /* LoginViewController.swift */; };
+		CDCC920124AFA584009A21D5 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCC920024AFA584009A21D5 /* CreateAccountViewController.swift */; };
+		CDCC920324AFA59B009A21D5 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCC920224AFA59B009A21D5 /* ListTableViewController.swift */; };
+		CDCC920524AFA5BA009A21D5 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCC920424AFA5BA009A21D5 /* UploadViewController.swift */; };
+		CDCC920724AFA5C9009A21D5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCC920624AFA5C9009A21D5 /* DetailViewController.swift */; };
+		CDCC920924AFA6E7009A21D5 /* GoodsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCC920824AFA6E7009A21D5 /* GoodsData.swift */; };
+		CDDB175D24B14A0600784552 /* GCTlogo_shadow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CDDB175824B14A0600784552 /* GCTlogo_shadow.jpg */; };
+		CDDB175E24B14A0600784552 /* mainviewImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CDDB175924B14A0600784552 /* mainviewImage.jpg */; };
+		CDDB175F24B14A0600784552 /* swuText.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CDDB175A24B14A0600784552 /* swuText.jpg */; };
+		CDDB176024B14A0600784552 /* listBtn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CDDB175B24B14A0600784552 /* listBtn.jpg */; };
+		CDDB177124B14EDE00784552 /* tvN 즐거운이야기OTF Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = CDDB176E24B14EDE00784552 /* tvN 즐거운이야기OTF Medium.otf */; };
+		CDDB177224B14EDE00784552 /* tvN 즐거운이야기OTF Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CDDB176F24B14EDE00784552 /* tvN 즐거운이야기OTF Bold.otf */; };
+		CDDB177324B14EDE00784552 /* tvN 즐거운이야기OTF Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = CDDB177024B14EDE00784552 /* tvN 즐거운이야기OTF Light.otf */; };
+		CDDB177724B156AA00784552 /* rainbow2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CDDB177424B156A900784552 /* rainbow2.jpg */; };
+		CDDB177824B156AA00784552 /* rainbow1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CDDB177524B156A900784552 /* rainbow1.jpg */; };
+		CDDB177924B156AA00784552 /* rainbow3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CDDB177624B156A900784552 /* rainbow3.jpg */; };
+		CDDB177B24B158E700784552 /* rainbow4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CDDB177A24B158E600784552 /* rainbow4.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CDBC924424AFC87100098EE8 /* ZzimListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZzimListTableViewController.swift; sourceTree = "<group>"; };
+		CDBC924624AFD80D00098EE8 /* ZzimDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZzimDetailViewController.swift; sourceTree = "<group>"; };
+		CDCC91D324AFA265009A21D5 /* GoodsComeTrueApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodsComeTrueApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDCC91D624AFA265009A21D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDCC91D824AFA265009A21D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CDCC91DA24AFA265009A21D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDCC91DD24AFA265009A21D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDCC91E024AFA265009A21D5 /* GoodsComeTrueApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoodsComeTrueApp.xcdatamodel; sourceTree = "<group>"; };
+		CDCC91E224AFA26A009A21D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDCC91E524AFA26A009A21D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDCC91E724AFA26A009A21D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDCC91EE24AFA2A1009A21D5 /* GCT_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GCT_logo.png; path = GoodsComeTrueApp/GCT_logo.png; sourceTree = SOURCE_ROOT; };
+		CDCC91EF24AFA2A1009A21D5 /* GCT_hw_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GCT_hw_logo.png; path = GoodsComeTrueApp/GCT_hw_logo.png; sourceTree = SOURCE_ROOT; };
+		CDCC91F024AFA2A1009A21D5 /* createAccountBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = createAccountBtn.png; path = GoodsComeTrueApp/createAccountBtn.png; sourceTree = SOURCE_ROOT; };
+		CDCC91F124AFA2A1009A21D5 /* loginBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loginBtn.png; path = GoodsComeTrueApp/loginBtn.png; sourceTree = SOURCE_ROOT; };
+		CDCC91F224AFA2A1009A21D5 /* GCTBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GCTBtn.png; path = GoodsComeTrueApp/GCTBtn.png; sourceTree = SOURCE_ROOT; };
+		CDCC91F824AFA2AD009A21D5 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = GoodsComeTrueApp/logo.png; sourceTree = SOURCE_ROOT; };
+		CDCC91F924AFA2AD009A21D5 /* welcomeLabel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = welcomeLabel.png; path = GoodsComeTrueApp/welcomeLabel.png; sourceTree = SOURCE_ROOT; };
+		CDCC91FA24AFA2AD009A21D5 /* logoutBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logoutBtn.png; path = GoodsComeTrueApp/logoutBtn.png; sourceTree = SOURCE_ROOT; };
+		CDCC91FE24AFA572009A21D5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CDCC920024AFA584009A21D5 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		CDCC920224AFA59B009A21D5 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		CDCC920424AFA5BA009A21D5 /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		CDCC920624AFA5C9009A21D5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CDCC920824AFA6E7009A21D5 /* GoodsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodsData.swift; sourceTree = "<group>"; };
+		CDDB175824B14A0600784552 /* GCTlogo_shadow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = GCTlogo_shadow.jpg; path = GoodsComeTrueApp/GCTlogo_shadow.jpg; sourceTree = SOURCE_ROOT; };
+		CDDB175924B14A0600784552 /* mainviewImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mainviewImage.jpg; path = GoodsComeTrueApp/mainviewImage.jpg; sourceTree = SOURCE_ROOT; };
+		CDDB175A24B14A0600784552 /* swuText.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = swuText.jpg; path = GoodsComeTrueApp/swuText.jpg; sourceTree = SOURCE_ROOT; };
+		CDDB175B24B14A0600784552 /* listBtn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = listBtn.jpg; path = GoodsComeTrueApp/listBtn.jpg; sourceTree = SOURCE_ROOT; };
+		CDDB176E24B14EDE00784552 /* tvN 즐거운이야기OTF Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "tvN 즐거운이야기OTF Medium.otf"; path = "GoodsComeTrueApp/tvN 즐거운이야기OTF Medium.otf"; sourceTree = SOURCE_ROOT; };
+		CDDB176F24B14EDE00784552 /* tvN 즐거운이야기OTF Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "tvN 즐거운이야기OTF Bold.otf"; path = "GoodsComeTrueApp/tvN 즐거운이야기OTF Bold.otf"; sourceTree = SOURCE_ROOT; };
+		CDDB177024B14EDE00784552 /* tvN 즐거운이야기OTF Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "tvN 즐거운이야기OTF Light.otf"; path = "GoodsComeTrueApp/tvN 즐거운이야기OTF Light.otf"; sourceTree = SOURCE_ROOT; };
+		CDDB177424B156A900784552 /* rainbow2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = rainbow2.jpg; path = GoodsComeTrueApp/rainbow2.jpg; sourceTree = SOURCE_ROOT; };
+		CDDB177524B156A900784552 /* rainbow1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = rainbow1.jpg; path = GoodsComeTrueApp/rainbow1.jpg; sourceTree = SOURCE_ROOT; };
+		CDDB177624B156A900784552 /* rainbow3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = rainbow3.jpg; path = GoodsComeTrueApp/rainbow3.jpg; sourceTree = SOURCE_ROOT; };
+		CDDB177A24B158E600784552 /* rainbow4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = rainbow4.jpg; path = GoodsComeTrueApp/rainbow4.jpg; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDCC91D024AFA265009A21D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDCC91CA24AFA265009A21D5 = {
+			isa = PBXGroup;
+			children = (
+				CDCC91D524AFA265009A21D5 /* GoodsComeTrueApp */,
+				CDCC91D424AFA265009A21D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDCC91D424AFA265009A21D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDCC91D324AFA265009A21D5 /* GoodsComeTrueApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDCC91D524AFA265009A21D5 /* GoodsComeTrueApp */ = {
+			isa = PBXGroup;
+			children = (
+				CDDB176124B14C4300784552 /* Font */,
+				CDCC91ED24AFA294009A21D5 /* Images */,
+				CDCC91D624AFA265009A21D5 /* AppDelegate.swift */,
+				CDCC91D824AFA265009A21D5 /* SceneDelegate.swift */,
+				CDCC91DA24AFA265009A21D5 /* ViewController.swift */,
+				CDCC91FE24AFA572009A21D5 /* LoginViewController.swift */,
+				CDCC920024AFA584009A21D5 /* CreateAccountViewController.swift */,
+				CDCC920224AFA59B009A21D5 /* ListTableViewController.swift */,
+				CDCC920424AFA5BA009A21D5 /* UploadViewController.swift */,
+				CDCC920624AFA5C9009A21D5 /* DetailViewController.swift */,
+				CDCC920824AFA6E7009A21D5 /* GoodsData.swift */,
+				CDBC924424AFC87100098EE8 /* ZzimListTableViewController.swift */,
+				CDBC924624AFD80D00098EE8 /* ZzimDetailViewController.swift */,
+				CDCC91DC24AFA265009A21D5 /* Main.storyboard */,
+				CDCC91E224AFA26A009A21D5 /* Assets.xcassets */,
+				CDCC91E424AFA26A009A21D5 /* LaunchScreen.storyboard */,
+				CDCC91E724AFA26A009A21D5 /* Info.plist */,
+				CDCC91DF24AFA265009A21D5 /* GoodsComeTrueApp.xcdatamodeld */,
+			);
+			path = GoodsComeTrueApp;
+			sourceTree = "<group>";
+		};
+		CDCC91ED24AFA294009A21D5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CDDB177A24B158E600784552 /* rainbow4.jpg */,
+				CDDB177524B156A900784552 /* rainbow1.jpg */,
+				CDDB177424B156A900784552 /* rainbow2.jpg */,
+				CDDB177624B156A900784552 /* rainbow3.jpg */,
+				CDDB175824B14A0600784552 /* GCTlogo_shadow.jpg */,
+				CDDB175B24B14A0600784552 /* listBtn.jpg */,
+				CDDB175924B14A0600784552 /* mainviewImage.jpg */,
+				CDDB175A24B14A0600784552 /* swuText.jpg */,
+				CDCC91F824AFA2AD009A21D5 /* logo.png */,
+				CDCC91FA24AFA2AD009A21D5 /* logoutBtn.png */,
+				CDCC91F924AFA2AD009A21D5 /* welcomeLabel.png */,
+				CDCC91F024AFA2A1009A21D5 /* createAccountBtn.png */,
+				CDCC91EF24AFA2A1009A21D5 /* GCT_hw_logo.png */,
+				CDCC91EE24AFA2A1009A21D5 /* GCT_logo.png */,
+				CDCC91F224AFA2A1009A21D5 /* GCTBtn.png */,
+				CDCC91F124AFA2A1009A21D5 /* loginBtn.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CDDB176124B14C4300784552 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				CDDB176F24B14EDE00784552 /* tvN 즐거운이야기OTF Bold.otf */,
+				CDDB177024B14EDE00784552 /* tvN 즐거운이야기OTF Light.otf */,
+				CDDB176E24B14EDE00784552 /* tvN 즐거운이야기OTF Medium.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDCC91D224AFA265009A21D5 /* GoodsComeTrueApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDCC91EA24AFA26A009A21D5 /* Build configuration list for PBXNativeTarget "GoodsComeTrueApp" */;
+			buildPhases = (
+				CDCC91CF24AFA265009A21D5 /* Sources */,
+				CDCC91D024AFA265009A21D5 /* Frameworks */,
+				CDCC91D124AFA265009A21D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoodsComeTrueApp;
+			productName = GoodsComeTrueApp;
+			productReference = CDCC91D324AFA265009A21D5 /* GoodsComeTrueApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDCC91CB24AFA265009A21D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = SWUCOMPUTER;
+				TargetAttributes = {
+					CDCC91D224AFA265009A21D5 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CDCC91CE24AFA265009A21D5 /* Build configuration list for PBXProject "GoodsComeTrueApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDCC91CA24AFA265009A21D5;
+			productRefGroup = CDCC91D424AFA265009A21D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDCC91D224AFA265009A21D5 /* GoodsComeTrueApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDCC91D124AFA265009A21D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDCC91F524AFA2A1009A21D5 /* createAccountBtn.png in Resources */,
+				CDDB177924B156AA00784552 /* rainbow3.jpg in Resources */,
+				CDCC91F624AFA2A1009A21D5 /* loginBtn.png in Resources */,
+				CDDB175F24B14A0600784552 /* swuText.jpg in Resources */,
+				CDCC91FB24AFA2AD009A21D5 /* logo.png in Resources */,
+				CDDB177324B14EDE00784552 /* tvN 즐거운이야기OTF Light.otf in Resources */,
+				CDCC91FD24AFA2AD009A21D5 /* logoutBtn.png in Resources */,
+				CDDB177824B156AA00784552 /* rainbow1.jpg in Resources */,
+				CDCC91E624AFA26A009A21D5 /* LaunchScreen.storyboard in Resources */,
+				CDDB177724B156AA00784552 /* rainbow2.jpg in Resources */,
+				CDDB177124B14EDE00784552 /* tvN 즐거운이야기OTF Medium.otf in Resources */,
+				CDDB177224B14EDE00784552 /* tvN 즐거운이야기OTF Bold.otf in Resources */,
+				CDCC91F324AFA2A1009A21D5 /* GCT_logo.png in Resources */,
+				CDCC91FC24AFA2AD009A21D5 /* welcomeLabel.png in Resources */,
+				CDCC91E324AFA26A009A21D5 /* Assets.xcassets in Resources */,
+				CDCC91F424AFA2A1009A21D5 /* GCT_hw_logo.png in Resources */,
+				CDDB176024B14A0600784552 /* listBtn.jpg in Resources */,
+				CDCC91DE24AFA265009A21D5 /* Main.storyboard in Resources */,
+				CDDB175D24B14A0600784552 /* GCTlogo_shadow.jpg in Resources */,
+				CDCC91F724AFA2A1009A21D5 /* GCTBtn.png in Resources */,
+				CDDB175E24B14A0600784552 /* mainviewImage.jpg in Resources */,
+				CDDB177B24B158E700784552 /* rainbow4.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDCC91CF24AFA265009A21D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDCC920924AFA6E7009A21D5 /* GoodsData.swift in Sources */,
+				CDCC920724AFA5C9009A21D5 /* DetailViewController.swift in Sources */,
+				CDBC924524AFC87100098EE8 /* ZzimListTableViewController.swift in Sources */,
+				CDCC920124AFA584009A21D5 /* CreateAccountViewController.swift in Sources */,
+				CDCC920524AFA5BA009A21D5 /* UploadViewController.swift in Sources */,
+				CDCC91DB24AFA265009A21D5 /* ViewController.swift in Sources */,
+				CDCC91D724AFA265009A21D5 /* AppDelegate.swift in Sources */,
+				CDCC91E124AFA265009A21D5 /* GoodsComeTrueApp.xcdatamodeld in Sources */,
+				CDCC91FF24AFA572009A21D5 /* LoginViewController.swift in Sources */,
+				CDBC924724AFD80D00098EE8 /* ZzimDetailViewController.swift in Sources */,
+				CDCC91D924AFA265009A21D5 /* SceneDelegate.swift in Sources */,
+				CDCC920324AFA59B009A21D5 /* ListTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CDCC91DC24AFA265009A21D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDCC91DD24AFA265009A21D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDCC91E424AFA26A009A21D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDCC91E524AFA26A009A21D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDCC91E824AFA26A009A21D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDCC91E924AFA26A009A21D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDCC91EB24AFA26A009A21D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoodsComeTrueApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.swu.GoodsComeTrueApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDCC91EC24AFA26A009A21D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoodsComeTrueApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.swu.GoodsComeTrueApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDCC91CE24AFA265009A21D5 /* Build configuration list for PBXProject "GoodsComeTrueApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDCC91E824AFA26A009A21D5 /* Debug */,
+				CDCC91E924AFA26A009A21D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDCC91EA24AFA26A009A21D5 /* Build configuration list for PBXNativeTarget "GoodsComeTrueApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDCC91EB24AFA26A009A21D5 /* Debug */,
+				CDCC91EC24AFA26A009A21D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CDCC91DF24AFA265009A21D5 /* GoodsComeTrueApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CDCC91E024AFA265009A21D5 /* GoodsComeTrueApp.xcdatamodel */,
+			);
+			currentVersion = CDCC91E024AFA265009A21D5 /* GoodsComeTrueApp.xcdatamodel */;
+			path = GoodsComeTrueApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CDCC91CB24AFA265009A21D5 /* Project object */;
+}
